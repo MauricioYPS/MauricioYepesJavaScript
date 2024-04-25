@@ -364,7 +364,7 @@ else if (operacionP12 == "multiplicacion"){
 
 
 let apellidosP13, nombresP13, nacionalidadP13, estaturaP13, sexoP13
-let fNacimientoP13, LNacimientoP13, lExpedicionp13, fExpedicionP13, fExpiracionP13,confirmacionp13
+let fNacimientoP13, lNacimientoP13, lExpedicionp13, fExpedicionP13, fExpiracionP13,confirmacionp13
 
 console.log("Completa los siguientes datos de manera correcta");
 apellidosP13 = prompt("Apellidos")
@@ -373,7 +373,7 @@ nacionalidadP13 = prompt("Nacionalidad")
 estaturaP13 = parseInt(prompt("Estatura en cm"))
 sexoP13 = prompt("Sexo")
 fNacimientoP13 = prompt("Fecha de nacimiento")
-LNacimientoP13 = prompt ("Lugar de nacimiento")
+lNacimientoP13 = prompt ("Lugar de nacimiento")
 fExpedicionP13 = prompt("Fecha de expedicion")
 lExpedicionp13 = prompt ("Lugar de expedicion")
 fExpiracionP13 = prompt ("Fecha de expiracion")
@@ -386,7 +386,7 @@ console.log("Nacionalidad: " +nacionalidadP13);
 console.log("Estatura en cm: " + estaturaP13);
 console.log("Sexo: " + sexoP13);
 console.log("Fecha de nacimiento: " + fNacimientoP13);
-console.log("Lugar de nacimiento: " + LNacimientoP13);
+console.log("Lugar de nacimiento: " + lNacimientoP13);
 console.log("Fecha de expedicion: " + fExpedicionP13);
 console.log("Lugar de expedicion: " + lExpedicionp13);
 console.log("Fecha de expiracion: " + fExpiracionP13);
@@ -404,7 +404,7 @@ else {
         estatura: estaturaP13,
         sexo: sexoP13,
         fechaDeNacimiento: fNacimientoP13,
-        lugarDeNacimiento: LNacimientoP13,
+        lugarDeNacimiento: lNacimientoP13,
         fechaDeExpedicion: fExpedicionP13,
         lugarDeExpedicion: lExpedicionp13,
         fechaDeExpiracion: fExpiracionP13
