@@ -292,6 +292,9 @@ console.log("Numero 15");
 // 16. Dado un array de 10 numeros desordenados, realizar un programa que imprima por
 // pantalla el array ordenado. (NO USAR SORT, solo ciclos FOR)
 
+//Profesor nose porque mi ciclo while no lo detectaba el programa, pido disculpas 
+//y porfavor explicarme que quedo mal en el ciclo al momento de la retroalimentacion, gracias :D
+
 // let cArray16 = 4
 // let arrayP16 = [cArray16]
 // let temp= 0
