@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#bgColor{
+    background-color: #c2c6a7;
+}
+#headerP{
+        border: solid 2px yellow;
+        height: 6vw;
+        position: sticky;
+        top: 0px;
+    }
+.cajaGrandeP1{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 30vw;
+}
+#noTanGrandeP1{
+    background-color: #9ac2c5;
+    border-radius: 7%;
+    display: flex;
+    width: 45vw;
+    justify-content: space-evenly;
+}
+.ingresarDatosP1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20vw;
+    height: auto;
+
+}
+.ingresarDatosP1 label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.resultadosP1{
+    align-items: center;
+    display: flex   ;
+    width: auto;
+}
+.resultadosP1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    display: flex   ;
+    align-items: center;
+}
+#cms{
+    height: 5vw;
+    width: 10vw;
+}
+#kgs{
+    height: 5vw;
+    width: 10vw; 
+}
+.containerP2{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 20vw;
+}
+#bgContainerP2{
+    padding: 2vw;
+    border-radius: 5%;
+    width: 19vw;
+    background-color: #9ac2c5;
+}
+#bgContainerP2 label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+   
+}
