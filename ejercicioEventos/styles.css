@@ -7,16 +7,24 @@
     background-color: #c2c6a7;
 }
 #headerP{
-        border: solid 2px yellow;
+    display: flex;
         height: 6vw;
         position: sticky;
         top: 0px;
+        background-color: rgb(106, 163, 213);
+        align-items: center;
+    }
+#headerP a{
+margin-left: 5vw;
     }
 .cajaGrandeP1{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 30vw;
+    margin-top: 5vw;
+
+
 }
 #noTanGrandeP1{
     background-color: #9ac2c5;
@@ -78,5 +86,106 @@
     max-width: 400px;
     margin: 0 auto;
     border-radius: 5px;
+
    
+}
+
+/*////////////////////////////////////////////////////////////////**/
+body{
+    background-color: #9ac2c5;
+}
+#cajaGrandeP3{
+    justify-content: space-around;
+    display: flex;
+    height: 35vw;
+    justify-content: center;
+}
+.cajaNota{
+    display: flex;
+    margin-top: 5vw;
+    width: 70vw;
+    height: 25vw;
+    background-color: #c2c6a7;
+
+}
+#mitad1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    
+    /* background-color: aliceblue; */
+}
+#mitad2{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#botonGuardar{
+    background-color: #4ccb25;
+    border: solid 2px  #4ccb25;
+}
+#botonBorrar{
+    background-color: #a72d2d;
+    border: solid 2px #a72d2d;
+}
+#cajaTarjetas{
+    display: flex;
+    height: 100vw;
+    justify-content: center;
+}
+#tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80vw;
+    background-color: aliceblue;
+
+}
+.color{
+    background-color: beige;
+}
+.txtt{
+    margin-left: 20vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#tarjetasPintadas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2.5%;
+    background-color: aquamarine;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.tarjetica{
+
+    border: solid 2px violet;
+    margin-top: 1vw;
+    height: 13vw;
+}
+.bpa{
+    height: 100%;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+footer {
+    text-align: center;
+    color: #343a40;
+    margin-top: 20px;
+}
+
+.note-card {
+    margin-bottom: 15px;
+}
+
+.realizada {
+    text-decoration: line-through;
+    font-weight: bold;
 }

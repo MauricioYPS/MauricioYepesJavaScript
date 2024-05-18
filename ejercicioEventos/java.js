@@ -8,20 +8,27 @@ button.addEventListener("click",function(){
     let estatura2
      estatura2 = cms * cms
     let imcR = kgs / estatura2
+    imcR = parseFloat(imcR).toFixed(2)
     document.getElementById("result").value = imcR
+
 
 
 })
 
-// function masaCalcular() {
-//     let estatura2 = cms * cms
-//     let imcR = kgs / estatura2
-//     document.getElementById("resultPP").
+const dolar = document.querySelector('#dolarInt')
+const cop = document.querySelector('#pesoInt')
+dolar.addEventListener('input',()=>{
+    let converso = dolar.value * 3824.06
+    converso = parseFloat(converso).toFixed(2)
+    document.getElementById('pesoInt').value = converso
+})
+cop.addEventListener('input', ()=>{
+    let converso = cop.value / 3824.06
+    converso = parseFloat(converso).toFixed(2)
+    document.getElementById('dolarInt').value = converso
 
+})
 
-// }
-
-// darImc.addEventListener("click", masaCalcular)
 
 
 
